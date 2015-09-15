@@ -34,7 +34,7 @@ export class HotTable {
 
     this.view = document.createElement('div');
     this.view.class = 'handsontable-container handsontable htColumnHeaders';
-    //this.view.innerHTML = 'foo';
+    // this.view.innerHTML = 'foo';
     this.element.nativeElement.appendChild(this.view);
   }
 
